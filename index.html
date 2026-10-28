@@ -104,3 +104,4 @@ async function init(){if(typeof SUPABASE_URL==='undefined'||SUPABASE_URL.indexOf
   var s=await sb.auth.getSession();if(s.data.session)start(s.data.session.user);else authV()}
 init();
 </script></body></html>
+<script src="fix.js"></script>
